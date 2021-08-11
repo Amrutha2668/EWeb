@@ -1,0 +1,372 @@
+/* container attributes */
+.container{
+    display: flex;
+    flex-direction: row;
+}
+.row2{
+    display: flex;
+    flex-direction: column;
+}
+.product img{
+    height: 170px;
+    width: 195px;
+    padding: 23px;
+    /* border: 10px solid black; */
+}
+.col2{
+    display: flex;
+    flex-direction: row;
+    /* margin-right: 820px; */
+    /* background-color:#222; */
+    /* box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19); */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 15px;
+    padding: 35px;
+    transition: 0.2s;
+}
+.total{
+    margin-top: 15px;
+    height: 275px;
+    display: flex;
+    margin-left: 399px;
+    /* background-color:#222; */
+    flex-direction: column;
+    /* justify-content: center; */
+    /* box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19); */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* margin: 15px; */
+    /* padding: 35px; */
+    transition: 0.2s;
+}
+.col3{
+    display: flex;
+    flex-direction: row;
+    /* margin-top: 70px; */
+    /* border:1px solid black; */
+}
+.d{
+    text-align: center;
+}
+.cl{
+    margin-top: 85px;
+    /* text-align: center; */
+    margin-left: 75px;
+}
+.ck{
+    margin-top: auto;
+}
+.description{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.price{
+    margin-top: 20px;
+}
+button{
+    color: black;
+    padding: 7px;
+    margin: 15px;
+    border: none;
+    border-radius: 7px;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgb(128, 128, 128);
+}
+
+.product{
+    text-align: center;
+}
+
+
+
+/* media queries */
+@media (max-width:1397px) {
+    .total{
+        margin-left: 310px;
+    }
+}
+
+@media (max-width:1326px) {
+    .row2{
+        margin-left: -50px;
+    }
+    .total{
+        margin-left: 300px;
+    }
+    button{
+    font-size: 15px;
+    font-weight: 200;
+}
+}
+@media (max-width:1279px) {
+    .total{
+        margin-left: 280px;
+    }
+}
+@media (max-width:1270px) {
+    .row2{
+        margin-left: -50px;
+    }
+    .total{
+        margin-left: 260px;
+    }
+}
+@media (max-width:1239px) {
+    .total{
+        margin-left: 240px;
+    }
+}
+@media (max-width:1220px) {
+    .total{
+        margin-left: 230px;
+    }
+}
+@media (max-width:1170px) {
+    .total{
+        margin-left: 200px;
+    }
+}
+@media (max-width:1208px) {
+    .total{
+        margin-left: 190px;
+    }
+}
+@media (max-width:1169px) {
+    .total{
+        margin-left:160px ;
+    }
+}
+
+@media (max-width:1138px) {
+    .total{
+        margin-left:150px ;
+    }
+}
+@media (max-width:1129px) {
+    .total{
+        margin-left:145px ;
+        margin-right: -2px;
+    }
+}
+@media (max-width:1122px) {
+    button{
+        font-size: 12px;
+        font-weight: 200;
+    }
+    .cl{
+        margin-top: 85px;
+        /* text-align: center; */
+        margin-left: 40px;
+    }
+    .total{
+        margin-left: 150px;
+    }
+}
+@media (max-width:1071px) {
+    .total{
+        margin-left: 130px;
+    }
+}
+@media (max-width:1046px) {
+    button{
+        font-size: 11px;
+    }
+}
+@media (max-width:1055px) {
+    .total{
+        margin-left: 125px;
+    }
+}
+@media (max-width:1026px) {
+    .total{
+        margin-left: 110px;
+    }
+}
+@media (max-width:1012px) {
+    .total{
+        margin-left: 100px;
+    }
+}
+@media (max-width:1002px) {
+    .cl p{
+        font-size: large;
+    }
+    .total{
+        margin-left: 90px;
+    }
+}
+@media (max-width:992px) {
+    .total{
+        margin-left: 80px;
+    }
+}
+@media (max-width:982px) {
+    .total{
+        margin-left: 70px;
+    }
+}
+@media (max-width:972px) {
+    .total{
+        margin-left: 50px;
+    }
+}
+@media (max-width:953px) {
+    .total{
+        margin-left: 40px;
+    }
+}
+@media (max-width:942px) {
+    .total{
+        margin-left: 30px;
+    }
+}
+@media (max-width:932px) {
+    .total{
+        margin-left: 25px;
+    }
+}
+@media (max-width:927px) {
+    .total{
+        margin-right: -17px;
+    }
+}
+@media (max-width:914px) {
+    .total{
+        margin-left: 20px;
+    }
+}
+@media (max-width:906px) {
+    .total{
+        margin-right: -20px;
+    }
+}
+@media (max-width:902px) {
+    .total{
+        margin-right: -30px;
+    }
+}
+@media (max-width:894px) {
+    .container{
+        flex-direction: column;
+    }
+    .d button{
+        font-size: 12px;
+    }
+    .total{
+        height: 260px;
+        margin-left: -36px;
+        margin-right: 14px;
+    }
+    .cl{
+        display: flex;
+        justify-content: center;
+        margin-right: 55px;
+    }
+    .ck{
+        display: flex;
+    justify-content: center;
+    }
+    .ck button{
+        font-size: 16px;
+        font-weight: 600;
+    }
+}
+@media (max-width:640px) {
+    .description{
+        margin-left: 0px;
+    } 
+}
+@media (max-width:588px) {
+    .description{
+        margin-left: -35px;
+    }
+}
+@media (max-width:570px) {
+    .description{
+        margin-left: -45px;
+    }
+}
+@media (max-width:540px) {
+    .description{
+        margin-left: -60px;
+    }
+}
+@media (max-width:512px) {
+    .description{
+        margin-left:-100px ;
+    }
+}
+@media (max-width:480px) {
+    .description{
+        margin-left: -110px;
+    }
+    .product{
+        margin-left: -30px;
+    }
+}
+/* @media (max-width:448px) {
+    .description{
+        margin-left: -140px;
+    }
+}
+@media (max-width:420px) {
+    .product{
+        margin-left: -50px;
+    }
+}
+@media (max-width:410px) {
+    .total{
+        margin-left: -26px;
+        margin-right: -41px;
+    }
+    .row2{
+        margin-left: -30px;
+    } 
+    .col2{
+        margin: 2px;
+    }
+}
+@media (max-width:400px) {
+    .col2{
+        padding: 27px;
+    }
+} */
+
+@media (max-width:448px) {
+    .d button{
+        font-size: 14px;
+    }
+    .col2{
+        flex-direction: column;
+        margin: -40px;
+        margin-left: 15px;
+        margin-bottom: 50px;
+    }
+    .description{
+        justify-content: center;
+    }
+    .cl p{ 
+        font-size: larger;
+    } 
+    .product{
+        margin-left: -17px;
+    }
+    .total{
+        margin-right: -41px;
+        margin-left: -31px;
+    }
+}
+@media (max-width:376px) {
+    .ck button{
+        font-size: 13px;
+    }
+    .total{
+        margin-right: -33px;
+    }
+}

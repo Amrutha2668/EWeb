@@ -1,0 +1,81 @@
+/* whole container */
+.f{
+    display: flex;
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
+    justify-content: center;
+    padding: 125px;
+}
+/*content container section */
+.fcont{
+    display: flex;
+    justify-content: center;
+    
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    width: 500px;
+    height: 250px;
+    margin-top: 30px;
+} 
+
+/* form section */
+form{
+    display: table;
+}
+.fcont p{
+    display: table-row;
+}
+label{
+    display: table-cell;
+}
+input{
+    display: table-cell;
+}
+.but{
+    color: black;
+    font-size: large;
+    padding: 4px;
+}
+.cp{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Media queries */
+@media (max-width:508px) {
+    .f{
+        padding: 110px;
+    }
+}
+@media (max-width:486px) {
+    .f{
+        padding: 90px;
+    }
+}
+@media (max-width:470px) {
+    .fcont p{
+        font-size: 20px;
+    }
+    .cp{
+        font-size: medium;
+    }
+}
+@media (max-width:438px) {
+    .f{
+        padding: 80px;
+    }
+}
+@media (max-width:418px) {
+    .f{
+        padding: 60px;
+    }
+}
+@media (max-width:378px) {
+    .f{
+        padding: 40px;
+    }
+}
+@media (max-width:338px) {
+    .f{
+        padding: 10px;
+    }
+}
